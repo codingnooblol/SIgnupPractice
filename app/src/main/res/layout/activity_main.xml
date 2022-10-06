@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="top|center"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -82,7 +83,7 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="326dp"
+        android:layout_height="36dp"
         android:text="확인" />
 
 </LinearLayout>
